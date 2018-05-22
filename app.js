@@ -54,15 +54,15 @@ sr.reveal(".button1", {
 sr.reveal(".card-group", {
   duration: 2000,
   origin: "bottom",
-  viewFactor: 0.5,
-  distance: "300px"
+  viewFactor: 0.2,
+  distance: "100px"
 });
 
 sr.reveal(".ponuda", {
-  duration: 2000,
+  duration: 1000,
   origin: "top",
-  viewFactor: 0.5,
-  distance: "300px"
+  viewFactor: 0.8,
+  distance: "150px"
 });
 
 sr.reveal(".feat2", {
@@ -86,30 +86,60 @@ sr.reveal(".feat-btn", {
   origin: "bottom",
   viewFactor: 0.5
 });
+sr.reveal(".fa-facebook", {
+  duration: 2000,
+  origin: "left",
+  viewFactor: 0.5,
+  rotate: { x: 180, y: 180, z: 0 }
+});
+sr.reveal(".fa-twitter", {
+  duration: 2000,
+  origin: "left",
+  viewFactor: 0.5,
+  rotate: { x: 180, y: 180, z: 0 }
+});
+sr.reveal(".fa-google-plus-g", {
+  duration: 2000,
+  origin: "left",
+  viewFactor: 0.5,
+  rotate: { x: 180, y: 180, z: 0 }
+});
+sr.reveal(".fa-instagram", {
+  duration: 2000,
+  origin: "left",
+  viewFactor: 0.5,
+  rotate: { x: 180, y: 180, z: 0 }
+});
+sr.reveal(".fa-youtube", {
+  duration: 2000,
+  origin: "left",
+  viewFactor: 0.5,
+  rotate: { x: 180, y: 180, z: 0 }
+});
 
 /////////////////////////////////////////////////////////////////////////////////////////////
-$(function() {
-  // Smooth Scrolling
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (
-      location.pathname.replace(/^\//, "") ==
-        this.pathname.replace(/^\//, "") &&
-      location.hostname == this.hostname
-    ) {
-      var target = $(this.hash);
-      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
-      if (target.length) {
-        $("html, body").animate(
-          {
-            scrollTop: target.offset().top
-          },
-          1000
-        );
-        return false;
-      }
-    }
-  });
-});
+// $(function() {
+//   // Smooth Scrolling
+//   $('a[href*="#"]:not([href="#"])').click(function() {
+//     if (
+//       location.pathname.replace(/^\//, "") ==
+//         this.pathname.replace(/^\//, "") &&
+//       location.hostname == this.hostname
+//     ) {
+//       var target = $(this.hash);
+//       target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+//       if (target.length) {
+//         $("html, body").animate(
+//           {
+//             scrollTop: target.offset().top
+//           },
+//           1000
+//         );
+//         return false;
+//       }
+//     }
+//   });
+// });
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 $(".carousel").carousel({
