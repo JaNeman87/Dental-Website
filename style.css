@@ -162,6 +162,15 @@ body {
   border: none;
 }
 
+table th {
+  font-family: Bodoni Bd BT;
+    font-weight: bolder;
+    font-size: 20px
+}
+.title {
+  font-size: 30px;
+}
+
 /*
   -------------------------------------------------- */
 
