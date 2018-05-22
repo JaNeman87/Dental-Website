@@ -105,7 +105,7 @@ body {
 .card1:hover  p  {
   color: white;
   font-style: italic;
-  font-size: 105%;
+  
 } 
   .card2:hover {
     background-color: #6CCEF7;
@@ -122,7 +122,7 @@ body {
 .card3:hover  p {
   color: white;
   font-style: italic;
-  font-size: 105%;
+  
 } 
 .card1:hover  h5 {
   color: white;
@@ -146,13 +146,27 @@ body {
 }
 
 
-
+.one {
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+  border-right: #5a5a5a 1px solid;
+}
+.two {
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+  border-right: #5a5a5a 1px solid;
+}
+.three {
+  border: none;
+}
 
 /*
   -------------------------------------------------- */
 
 
-  .parallax {
+  .parallax  {
     height: 30vw;
     background-image: url('img/99.jpg');
     background-position: center;
@@ -161,7 +175,21 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    
   }
+  .parallax2  {
+    height: 13vw;
+    background-image: url('img/99.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  
   
   /*
   -------------------------------------------------- */

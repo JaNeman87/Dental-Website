@@ -116,6 +116,26 @@ sr.reveal(".fa-youtube", {
   viewFactor: 0.5,
   rotate: { x: 180, y: 180, z: 0 }
 });
+sr.reveal(".loc", {
+  duration: 2000,
+  origin: "top",
+  scale: 0.1
+});
+sr.reveal(".loc1", {
+  duration: 2000,
+  origin: "top",
+  scale: 0.1
+});
+sr.reveal(".tel", {
+  duration: 2000,
+  origin: "top",
+  scale: 0.1
+});
+sr.reveal(".tel1", {
+  duration: 2000,
+  origin: "top",
+  scale: 0.1
+});
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 // $(function() {
