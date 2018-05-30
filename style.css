@@ -2,6 +2,40 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+	  margin: 0 auto;
+  width: 320px;  
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+.texi{
+  color: black;
+}
+
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -28,7 +62,7 @@ body {
     display: block;
     height: 5px;
     width: 0%;
-    background-color: #6CCEF7;
+    background-color: #19f6e8;
     transition: all ease-in-out 250ms;
   }
 
@@ -97,7 +131,7 @@ body {
   }
 
   .card1:hover {
-    background-color: #6CCEF7;
+    background-color: #19f6e8;
     transition-property: all;
     transition-duration: 1000ms;
     transition-timing-function: ease-in-out;
@@ -108,7 +142,7 @@ body {
   
 } 
   .card2:hover {
-    background-color: #6CCEF7;
+    background-color: #19f6e8;
     transition: all 1s ease-in-out;
 }
 .card2:hover  p {
@@ -116,7 +150,7 @@ body {
   font-style: italic;
 } 
   .card3:hover {
-    background-color: #6CCEF7;
+    background-color: #19f6e8;
     transition: all 1s ease-in-out;
 }
 .card3:hover  p {
@@ -135,7 +169,7 @@ body {
 } 
 
 .dz1:hover, .dz2:hover {
-  background-color: #6CCEF7;
+  background-color: #19f6e8;
   transition: all 1s ease-in-out;
 }
 .dz1:hover p, .dz2:hover p {
